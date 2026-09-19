@@ -1,0 +1,30 @@
+{
+  "project_id": "XHS-BEAUTY-001",
+  "revision": 1,
+  "handoff_epoch": 1,
+  "stage": "SETUP",
+  "status": "WAITING_USER_PROFILE",
+  "current_task": "BOOT-001",
+  "task_path": "任务/BOOT-001/V1/任务.json",
+  "active_content_tasks": [],
+  "latest_data_report": null,
+  "latest_verified_snapshot": null,
+  "account_id": null,
+  "followers": null,
+  "user_capital_limit_cny": 10000,
+  "approved_spend_cny": 0,
+  "actual_spend_cny": 0,
+  "spend_note": "仅本系统已记录支出为0，用户历史支出尚未核实",
+  "next_actions": [
+    {
+      "role": "用户",
+      "action": "填写启动/用户首次资料.md"
+    },
+    {
+      "role": "总监",
+      "action": "核对六项资料，生成正式定位与第一条内容任务"
+    }
+  ],
+  "updated_at": "2026-09-20T00:00:00+08:00",
+  "updated_at_note": "版本编制日期，非后台数据采集时间"
+}

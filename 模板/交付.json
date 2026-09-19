@@ -1,0 +1,25 @@
+{
+  "template_only": true,
+  "task_id": null,
+  "role": null,
+  "input_revision": null,
+  "inputs": [
+    {
+      "path": null,
+      "commit": null,
+      "sha256": null
+    }
+  ],
+  "artifacts": [
+    {
+      "path": null,
+      "artifact_commit": null,
+      "sha256": null,
+      "readback_verified": false
+    }
+  ],
+  "verification_status": "UNVERIFIED",
+  "blockers": [],
+  "next_role": null,
+  "note": "用真实值替换。先提交产物再写交付清单；交付文件自身提交记在交接回执，不自引用。"
+}

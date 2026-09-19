@@ -1,0 +1,18 @@
+{
+  "project_id": "XHS-BEAUTY-001",
+  "version": "1.0",
+  "repository": "https://github.com/1464356758/xiaohongshu",
+  "branch": "main",
+  "timezone": "Asia/Shanghai",
+  "state_path": "当前进度.json",
+  "protocol_path": "系统/共同协议.md",
+  "manual_path": "运营手册.md",
+  "roles_dir": "角色",
+  "tasks_dir": "任务",
+  "approved_dir": "批准",
+  "data_dir": "数据",
+  "public_repository": true,
+  "automation_scope": "未启用定时任务；用户发送交接句唤醒各角色",
+  "bootstrap_task": "任务/BOOT-001/V1/任务.json",
+  "mode": "独立普通聊天角色工作流"
+}

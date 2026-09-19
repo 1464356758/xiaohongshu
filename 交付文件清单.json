@@ -1,0 +1,264 @@
+{
+  "version": "1.0",
+  "scope": "本次普通聊天角色工作流；清单本身不自校验",
+  "files": [
+    {
+      "path": "交付复核.md",
+      "bytes": 1584,
+      "sha256": "ebb9c681e118e46a1c26b6390127547dfc5e755a90e014ac43b421c1dc24bf4d",
+      "git_blob_sha": "2a85bc63dd1d396582aed023305f8083eada245c"
+    },
+    {
+      "path": "任务/BOOT-001/V1/任务.json",
+      "bytes": 938,
+      "sha256": "32373cd1c999c7e93ab8648d8de49f495662cf21fd0f97d0a7a154126a6935a2",
+      "git_blob_sha": "b81a14f91ffb057f4c31583c283c5fa8489f1225"
+    },
+    {
+      "path": "全部角色指令.md",
+      "bytes": 52083,
+      "sha256": "ac47e96e3fc6194eeb4ad9e3a01bd74c1e9bd52cd1623a16c8ae1fff4c202e55",
+      "git_blob_sha": "a78af1e9d8cc2e18838c4c3f54b25373529b44b7"
+    },
+    {
+      "path": "启动/用户首次资料.md",
+      "bytes": 1063,
+      "sha256": "ef4c4daccd880366811220b6dd20472edb071913ffa2c1095c73fb257bffb52a",
+      "git_blob_sha": "879321356d33e4f4734fdd29c5f9c82227777b01"
+    },
+    {
+      "path": "工具/verify.py",
+      "bytes": 2073,
+      "sha256": "d03acc644ffc44b819a440604b5bd1a94b1bca8b3c53d056ad39a2529ffc9b47",
+      "git_blob_sha": "f917a8aa07cd7537186c9c494d600a9e5569c568"
+    },
+    {
+      "path": "开始这里.md",
+      "bytes": 2954,
+      "sha256": "4168a87d34e984897372dbf682430c24eb6a062fab66d239d734137e28396a49",
+      "git_blob_sha": "2abcd0a21658221f9b6b09d25cd21af5169308d6"
+    },
+    {
+      "path": "当前进度.json",
+      "bytes": 872,
+      "sha256": "8504ffb0666eb3e85f77b8d2befd161bb7ff10929d2b53c1b512452657dc8142",
+      "git_blob_sha": "3ed2214be1631896be6efef927b63c10f700635a"
+    },
+    {
+      "path": "批准/README.md",
+      "bytes": 137,
+      "sha256": "ca8ed1e3409991fe0966e7574311c3d7cee673710c551491923d5ab4451b5a51",
+      "git_blob_sha": "e017e0b22550d5289d4fd30d5ad5297379fa3931"
+    },
+    {
+      "path": "数据/报告/README.md",
+      "bytes": 333,
+      "sha256": "7066f334b09d79555a7de4c128dfc939e63c4b785f213f836014b689beabc8b7",
+      "git_blob_sha": "350b0f2668cac1d0d3bbf10bc05f95879bca3452"
+    },
+    {
+      "path": "数据/数据字典.md",
+      "bytes": 1281,
+      "sha256": "67cbd038338f4518b16fdb0eadeca446892a3e7bf8b60ff7683c75535a466d43",
+      "git_blob_sha": "e830bad315643fff4c022edbce168849a307ce8f"
+    },
+    {
+      "path": "数据库入口.json",
+      "bytes": 605,
+      "sha256": "06152d2b72d4043a4cd4e7d2d3a0b67d15dde0959850ba462f0ebae128f1e472",
+      "git_blob_sha": "3d6a4967ca987b850ddc831d054b384c63bf0387"
+    },
+    {
+      "path": "模板/交付.json",
+      "bytes": 532,
+      "sha256": "33b7251772e8ce67b37c5bed741a8a33612fcb0e23e6ec312928d8354713c707",
+      "git_blob_sha": "38d1f791f2ccafc0997db55477dd71ce8ffd19c2"
+    },
+    {
+      "path": "模板/内容任务.md",
+      "bytes": 926,
+      "sha256": "0c19d6e8f81dc5e3da3978bd7b6500938ebe8b8ae1745e6af8ead7c0b0c66b1b",
+      "git_blob_sha": "3a76a278cf7ab6a38f2955f8eeb61567c7c065aa"
+    },
+    {
+      "path": "模板/发布许可与回执.md",
+      "bytes": 769,
+      "sha256": "de2779e3c9b1e3bf62eb092266cbd13f91f3b607bdc9083cf31285236252ee85",
+      "git_blob_sha": "d360b774f7568cbc444ef7f255bbef7e44019969"
+    },
+    {
+      "path": "模板/商务与收支.md",
+      "bytes": 1001,
+      "sha256": "223dfa7e9bb48adf4987a22f0a0aa3c8abdce60c4b914be4d31c6bbf5d515750",
+      "git_blob_sha": "9931f6497e4cccb89b6d56c114b8403a4c4c74c6"
+    },
+    {
+      "path": "模板/手机每日交数.txt",
+      "bytes": 596,
+      "sha256": "e3e2dad04f568513f7b195a8c43c6feeed15f9ec03fddb828165af871d955e78",
+      "git_blob_sha": "7335192dfb8dcdabde26eb3684046837c7f163e5"
+    },
+    {
+      "path": "模板/数据快照.json",
+      "bytes": 760,
+      "sha256": "01cbd5d33918bbe7bc73dd12536f6ed0122db8675c68591fa9cd555836b47586",
+      "git_blob_sha": "734721609b03fec454eb97686a24ddb67caaa663"
+    },
+    {
+      "path": "模板/每日复盘.md",
+      "bytes": 966,
+      "sha256": "7d5af436731d1f51dcb24dd8b4e51912e08f13e93bed2727970b542307fe1bed",
+      "git_blob_sha": "cfe8643af03a9ee28a488cad2f617e7341dc58c3"
+    },
+    {
+      "path": "模板/素材与体验记录.md",
+      "bytes": 563,
+      "sha256": "be6b5b4e7d14e5f5088cc9fa20f90922c7c0de4d8d684192341af9392e7b5dec",
+      "git_blob_sha": "37171adb11274941289f7c094293bd2319eb1f05"
+    },
+    {
+      "path": "模板/续接卡.md",
+      "bytes": 482,
+      "sha256": "5067ea87f82c5fc442473eda6fedc6bb8d6419e3e229f2660014098322ceae43",
+      "git_blob_sha": "c55e6988265bb58ad0103deb329faf044b5e87a3"
+    },
+    {
+      "path": "正式/README.md",
+      "bytes": 177,
+      "sha256": "838bcfac22b537ffb8728b2eaea735377b1b3bd839bb77af18b0b42c3ccf6c8e",
+      "git_blob_sha": "b5974c16c524336ba4cd3c429b2a35d7233ade50"
+    },
+    {
+      "path": "研究/来源与未核实事项.md",
+      "bytes": 2139,
+      "sha256": "235166a6f154d5765d7e528ed269f33668b658c99fc81d4237459380e04d974d",
+      "git_blob_sha": "a6524301f6d98dcbb76acc65b74317bc155b8f5b"
+    },
+    {
+      "path": "系统/共同协议.md",
+      "bytes": 3385,
+      "sha256": "40c15c5aca09f0874d5314074e8438a9e759e75c83073f1cb4ff2aa0eb86b43e",
+      "git_blob_sha": "4b30b7d4413e74664aa6c7278b282189ad6f16bf"
+    },
+    {
+      "path": "系统/初始预算.json",
+      "bytes": 336,
+      "sha256": "32a1806a799172d3e3d9e0a9b3a41f785f3a82868ecbeb41e20c980c0b9f391b",
+      "git_blob_sha": "9519d28e23a674bff98c461f54a73169e82fc237"
+    },
+    {
+      "path": "系统/审核标准.md",
+      "bytes": 1365,
+      "sha256": "6a04e26542279c273b12b0b022a4f361e18fc8b90a43e3bf64241e9e9454953a",
+      "git_blob_sha": "2f858972f678425bf8c05d8524b0aecaac8d43dc"
+    },
+    {
+      "path": "系统/故障恢复与备份.md",
+      "bytes": 1689,
+      "sha256": "8c5fb7558256f55ee0968f5eaddab416dea3f2915200a91fa5867a536ab9b80e",
+      "git_blob_sha": "aa96bbfb14440796226b606d97673885c7797e8d"
+    },
+    {
+      "path": "系统/模型与角色速查.md",
+      "bytes": 1106,
+      "sha256": "a5322733e63844f9826aa720ed856c0a4566fc4caf83d8fd193525f0f9238771",
+      "git_blob_sha": "8768c50ce37c26aa3383cfb535c273d07dbd0037"
+    },
+    {
+      "path": "系统/模型节流与换聊天.md",
+      "bytes": 2047,
+      "sha256": "d29dae4073c93a630cfa6158321adf56b80b3b3aadbc7e1a047a1420f7cb6dc1",
+      "git_blob_sha": "7ce0557810fdbbf668b3f2a14f5c0bbcc2d5e8e1"
+    },
+    {
+      "path": "系统/状态机与权限.md",
+      "bytes": 2783,
+      "sha256": "4d433ef95e2cea8bd6217a127ecc02ab313728ba7f1d71f8ba7a16f95f95904b",
+      "git_blob_sha": "1be101b0aa1bec23b7d202e2d9176dfc81d743dc"
+    },
+    {
+      "path": "续接/总监/当前.md",
+      "bytes": 505,
+      "sha256": "0a906a8224b65a0f23575a8363af0b37b92fd1f27be259873f6d11b3e82f95c0",
+      "git_blob_sha": "354c778bf88fab3a0abd01dfe22393ba32126d48"
+    },
+    {
+      "path": "角色/01_总监.txt",
+      "bytes": 5699,
+      "sha256": "9a6baae75b5c794a4a3a74f41652431332288ef51d53afb59d793fadeb8dfacb",
+      "git_blob_sha": "eb78e74cdc8bcdd83f986d125d40a07b5201317e"
+    },
+    {
+      "path": "角色/02_市场与定位研究员.txt",
+      "bytes": 5119,
+      "sha256": "f101cebdb85caa105760c7ada25b896c27f40aba147c196e66ace9468666bce3",
+      "git_blob_sha": "77eda59be66e6b878a590353567437c6f327ebf8"
+    },
+    {
+      "path": "角色/03_内容策划.txt",
+      "bytes": 4856,
+      "sha256": "1fb5b90a2263b8315bab0eebf75a2f8eba93cb6ebb5216b1d8a789fb0acc9dbf",
+      "git_blob_sha": "3fd0ae4bc4de7d83d41088e6b4b097456cd7ab5b"
+    },
+    {
+      "path": "角色/04_文案脚本.txt",
+      "bytes": 4881,
+      "sha256": "5d592c5e1071b16ebf4b6d4ebfb3049b6e17ab498f9f50058420e8cba36a3218",
+      "git_blob_sha": "86c4d9936b0b544d04f1db94f43e7d5e5f8916be"
+    },
+    {
+      "path": "角色/05_视觉与拍摄制作.txt",
+      "bytes": 5099,
+      "sha256": "0969866062f92b0b9867573fe8eb81e3207ca86ded0b513347c91e616c9fe2bc",
+      "git_blob_sha": "a046247c328a19f6729f9ef8f0f94d319ce38fb0"
+    },
+    {
+      "path": "角色/06_内容与合规审核.txt",
+      "bytes": 5146,
+      "sha256": "0b602e5c135f94e8492475aab7776c7e8ca0707043b72f6f0427942703c3fc37",
+      "git_blob_sha": "f0895a8770a1b76e2c0aade761750c9ae9237489"
+    },
+    {
+      "path": "角色/07_发布与社群运营.txt",
+      "bytes": 5097,
+      "sha256": "58171a1c61cc76627647c8e26525cfc5fe88d5ad636e3cdf1fe2d41f929e0e58",
+      "git_blob_sha": "224a73a3e5e69ed11dd5dc36c8a9aa063068980a"
+    },
+    {
+      "path": "角色/08_数据分析与实验.txt",
+      "bytes": 5245,
+      "sha256": "c2ba8f14511b61bace6e558dcc93ea246153203468e4991d9d4470937e802554",
+      "git_blob_sha": "afe91f9a3abc12a98a38a937a6d9fd32887b1103"
+    },
+    {
+      "path": "角色/09_增长投放.txt",
+      "bytes": 5165,
+      "sha256": "2e3df4bb94af85b99a4d81799ba8d090b1febba838342d83f7ca4c91c58e618a",
+      "git_blob_sha": "f32b6f314a61b443a4ebc40e07825cb1aa478d06"
+    },
+    {
+      "path": "角色/10_商务与财务.txt",
+      "bytes": 5310,
+      "sha256": "180dca92fb69f53bec4b9364d8e46f04cb6f12bb9df904eb904d55002cf41156",
+      "git_blob_sha": "56f6619bdf9d9c871aa95f9bde037ce65f29c614"
+    },
+    {
+      "path": "角色工作流.md",
+      "bytes": 2763,
+      "sha256": "8bf19ecba123abd7cc108472b5bc7b910be462455f5d951b73ce4688262d5827",
+      "git_blob_sha": "4c14b869a46ea80cc9cede94cbc9a16677909caf"
+    },
+    {
+      "path": "财务/脱敏/README.md",
+      "bytes": 201,
+      "sha256": "e4072991e9f7a322e2b09c50dd56d3678ba1c3ac192ef1cbb8854c989b5bda27",
+      "git_blob_sha": "bb450a8c1c6581b5b823802b533696cbdcb6a700"
+    },
+    {
+      "path": "运营手册.md",
+      "bytes": 15242,
+      "sha256": "364d1a1ab9076439f722d62da227ec47d867dbc042d19d7f6a0f8972814bef4d",
+      "git_blob_sha": "79fbb81eafe690fbb5c128f0b105a189adb2bf6d"
+    }
+  ]
+}

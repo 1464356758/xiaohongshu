@@ -1,0 +1,33 @@
+{
+  "task_id": "BOOT-001",
+  "input_revision": 1,
+  "type": "bootstrap",
+  "owner": "总监",
+  "status": "WAITING_USER_PROFILE",
+  "goal": "收集真实条件，形成账号定位和第一条内容任务",
+  "inputs": [
+    "启动/用户首次资料.md",
+    "运营手册.md",
+    "系统/共同协议.md"
+  ],
+  "input_commit": null,
+  "input_commit_note": "初始化任务，开工总监读取当前HEAD后写入自己的交付清单作为输入固定提交",
+  "dependencies": [],
+  "missing_inputs": [
+    "用户六项资料"
+  ],
+  "max_spend_cny": 0,
+  "deliverables": [
+    "正式/定位/V1.md",
+    "正式/计划/首周V1.md",
+    "任务/CONTENT-001/V1/任务.json",
+    "产物/总监/BOOT-001/V1/交付.json"
+  ],
+  "acceptance": [
+    "人设全部来自用户确认",
+    "具体选题存在真实可拍素材",
+    "未授权支出为0",
+    "内容任务含依赖和审核路径"
+  ],
+  "next_role": "内容策划"
+}
