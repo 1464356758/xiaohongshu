@@ -1,0 +1,70 @@
+{
+  "task_id": "CONTENT-001",
+  "role": "内容与合规审核",
+  "input_revision": 3,
+  "rework_round": 1,
+  "review_scope": "TITLE_ONLY",
+  "inputs": [
+    {
+      "path": "产物/文案/CONTENT-001/V2/交付.json",
+      "commit": "87d8b144c060268bf8c68d9fb96f498b9dfb696f",
+      "git_blob_sha": "27bd3130a75fdb0f17a91075d775c6442cb947ea",
+      "sha256": "3ea0c0c1bc903841586bfb21385423222be3db5c64be5ac5e971dd4f1da8d54b"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V2/文案.md",
+      "commit": "6651d671699c65d9c708c3d9711e5a2e2912f836",
+      "git_blob_sha": "5777c4325a200c6dadee6dbe8eebd66e271bd81b",
+      "sha256": "d7a37bbc7ad4e47c3e746a2c38611c549ef9ffcf5ecedcba76eca25753a2abb0"
+    },
+    {
+      "path": "产物/审核/CONTENT-001/V1/交付.json",
+      "commit": "6564b5dac713c0a57690f2ffb344c1b8822dbb5d",
+      "git_blob_sha": "14c1bfcc9c985f63ebd8f7ce878e48107b73b19a",
+      "sha256": "5933d9fc7ec2a1b2b6ce113ce1bc594397f01449c88e02c5bd8df9fb7ea9b41e"
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/交付.json",
+      "commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d",
+      "git_blob_sha": "1cab6c4acf31c263d73b42bbeb16809488b62e9c",
+      "sha256": "e2e587f9736a7934c7fbe54466278dca2a7f55c50380a49d299d7377cdc6a3b3"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "产物/审核/CONTENT-001/V2/审核报告.md",
+      "artifact_commit": "e757a75bd3a057d8dba4308293d23f46dcc7ab13",
+      "git_blob_sha": "ddf0b8445433ef706111f9b284238bce56912a5d",
+      "sha256": "bb4ff7529b1677b1c7d4d83f88ada248e2e791a8c4107a6e14eedffcc5e69f40",
+      "readback_verified": true
+    }
+  ],
+  "change_validation": {
+    "line_count_v1": 206,
+    "line_count_v2": 206,
+    "changed_line_count": 2,
+    "changed_lines": [17, 19],
+    "replacement_recommended_title": "奶咖不等于一脸棕｜通勤妆感重点怎么分",
+    "visual_changed": false,
+    "forbidden_scope_changed": false
+  },
+  "review_result": "PASS",
+  "score": {
+    "audience_value": 23,
+    "evidence_credibility": 24,
+    "structure": 18,
+    "visual_readability": 14,
+    "natural_language": 9,
+    "follow_reason": 4,
+    "total": 92
+  },
+  "p0_count": 0,
+  "p1_count": 0,
+  "p2_required_count": 0,
+  "blockers": [],
+  "visual_rework_required": false,
+  "publish_status": "NOT_APPROVED",
+  "verification_status": "VERIFIED",
+  "next_role": "总监",
+  "note": "R1标题级复审PASS。上一轮唯一P1已关闭；机械逐行比较确认V1/V2均206行，仅推荐标题及其直接绑定说明两行变化。六页视觉固定提交未变，无需返工。旧“一张图”仅保留为历史候选，不得作为本次发布标题。审核PASS不等于总监发布批准；正式发布时仍须按当时平台界面使用AI生成/合成内容声明或标识功能。交付文件自身最终提交由聊天交接回执提供，避免循环引用。"
+}
