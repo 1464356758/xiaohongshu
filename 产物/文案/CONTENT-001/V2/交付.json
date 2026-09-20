@@ -1,0 +1,82 @@
+{
+  "task_id": "CONTENT-001",
+  "role": "文案脚本",
+  "input_revision": 3,
+  "rework_round": 1,
+  "rework_scope": "TITLE_ONLY",
+  "inputs": [
+    {
+      "path": "任务/CONTENT-001/V3/任务.json",
+      "commit": "0e4a9f0c3ac561d229296237e48b52fb26defa74",
+      "sha256": "7fe9c88799d203863b50016933f0aad8289eff9f512ddaea3fc2916c8eb7a182"
+    },
+    {
+      "path": "批准/CONTENT-001/V2/审核FAIL最小返修指令.md",
+      "commit": "0e4a9f0c3ac561d229296237e48b52fb26defa74",
+      "sha256": "8126e6d6649a1de3a4f37301964f009df2b8d500161d15b17a1fe0251cb778de"
+    },
+    {
+      "path": "当前进度.json",
+      "commit": "0e4a9f0c3ac561d229296237e48b52fb26defa74",
+      "sha256": "ef05059146fcf35244566b01d9a56cf31814eb7e8d16acaf3f9232ee0d543490"
+    },
+    {
+      "path": "产物/审核/CONTENT-001/V1/审核报告.md",
+      "commit": "6564b5dac713c0a57690f2ffb344c1b8822dbb5d",
+      "sha256": "21cc82ef0c2c045f963a0f9b0ec299bc6f3665b926a786324e24f2e3bed69ff0"
+    },
+    {
+      "path": "产物/审核/CONTENT-001/V1/交付.json",
+      "commit": "6564b5dac713c0a57690f2ffb344c1b8822dbb5d",
+      "sha256": "5933d9fc7ec2a1b2b6ce113ce1bc594397f01449c88e02c5bd8df9fb7ea9b41e"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/文案.md",
+      "commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba",
+      "sha256": "cbe96a650f6654a42cbcd55bf46ac6639d3627c953c88c1024ef39cc3fd1a3e1"
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/交付.json",
+      "commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d",
+      "sha256": "e2e587f9736a7934c7fbe54466278dca2a7f55c50380a49d299d7377cdc6a3b3"
+    },
+    {
+      "path": "系统/共同协议.md",
+      "commit": "0e4a9f0c3ac561d229296237e48b52fb26defa74",
+      "sha256": "40c15c5aca09f0874d5314074e8438a9e759e75c83073f1cb4ff2aa0eb86b43e"
+    },
+    {
+      "path": "角色/04_文案脚本.txt",
+      "commit": "0e4a9f0c3ac561d229296237e48b52fb26defa74",
+      "sha256": "5d592c5e1071b16ebf4b6d4ebfb3049b6e17ab498f9f50058420e8cba36a3218"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "产物/文案/CONTENT-001/V2/文案.md",
+      "artifact_commit": "6651d671699c65d9c708c3d9711e5a2e2912f836",
+      "git_blob_sha": "5777c4325a200c6dadee6dbe8eebd66e271bd81b",
+      "sha256": "d7a37bbc7ad4e47c3e746a2c38611c549ef9ffcf5ecedcba76eca25753a2abb0",
+      "readback_verified": true
+    }
+  ],
+  "change_validation": {
+    "baseline_path": "产物/文案/CONTENT-001/V1/文案.md",
+    "baseline_commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba",
+    "line_count_v1": 206,
+    "line_count_v2": 206,
+    "changed_line_count": 2,
+    "changed_fields": [
+      "推荐标题",
+      "与推荐标题直接绑定的标题依据"
+    ],
+    "replacement_recommended_title": "奶咖不等于一脸棕｜通勤妆感重点怎么分",
+    "forbidden_scope_changed": false,
+    "visual_rework": false
+  },
+  "verification_status": "VERIFIED",
+  "blockers": [],
+  "publish_status": "NOT_APPROVED",
+  "next_role": "内容与合规审核",
+  "note": "R1标题级最小返修完成。以V1固定提交为基线，逐行机械对比确认仅2行变化：推荐标题与其直接绑定标题依据。P1-P6页面字稿、正文核心内容、话题、品牌/产品/体验/功效边界及视觉资产均未修改。交付文件自身最终提交不写入本文件以避免循环引用，由聊天交接回执提供。"
+}
