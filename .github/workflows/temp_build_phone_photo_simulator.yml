@@ -1,11 +1,10 @@
 name: Temp Build Phone Photo Simulator APK
 
 on:
-  pull_request:
-    branches: [ "main" ]
-    paths:
-      - "_temp_apk_build/PhotoSimulatorV4/**"
-      - ".github/workflows/temp_build_phone_photo_simulator.yml"
+  push:
+    branches:
+      - "temp/apk-photo-sim-v4-20260920"
+  workflow_dispatch:
 
 jobs:
   build:
