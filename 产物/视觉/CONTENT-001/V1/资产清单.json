@@ -1,0 +1,104 @@
+{
+  "task_id": "CONTENT-001",
+  "role": "视觉与拍摄制作",
+  "input_revision": 2,
+  "visual_asset_fixed_commit": "77961a5bd422c5fee9e2c6f13ec3ef6b0c446062",
+  "format": {
+    "type": "SVG",
+    "canvas_px": "1080x1440",
+    "orientation": "portrait",
+    "note": "SVG为正式可查看视觉资产；发布前由运营按当时编辑器核对裁切安全区与导出格式。"
+  },
+  "production": {
+    "source": "100%原创矢量图形、原创色卡、原创排版",
+    "external_photography": false,
+    "real_person_image": false,
+    "brand_asset": false,
+    "product_asset": false,
+    "beauty_retouched": false,
+    "filter_applied": false,
+    "ai_or_visual_disclosure": "涉及妆面/人物概念处保留AI视觉示意 / 非真人试色或等价说明",
+    "cash_spend_cny": 0
+  },
+  "palette": [
+    {
+      "name": "奶咖",
+      "hex": "#C9AD97"
+    },
+    {
+      "name": "柔棕",
+      "hex": "#755B4B"
+    },
+    {
+      "name": "雾粉",
+      "hex": "#C89AA0"
+    },
+    {
+      "name": "米白背景",
+      "hex": "#F6F0E9"
+    },
+    {
+      "name": "主文字",
+      "hex": "#3D342F"
+    }
+  ],
+  "assets": [
+    {
+      "page": "P1",
+      "path": "产物/视觉/CONTENT-001/V1/P1_封面.svg",
+      "git_blob_sha": "f14b63689a873e0ee7a261f4ceded9f67a0b4041",
+      "sha256": "e986dbda8680ac23efbee445d6621456c75dac4f40f27df17d340daca5f09e45",
+      "status": "FINAL_VISUAL"
+    },
+    {
+      "page": "P2",
+      "path": "产物/视觉/CONTENT-001/V1/P2_整体色盘.svg",
+      "git_blob_sha": "16e9af45c8cb748f3e7fed442dfecf5dd3a040ba",
+      "sha256": "99357d797baf130979ada8ea3070c679fcd367cd1dde3dde78beda2964a7a8d8",
+      "status": "FINAL_VISUAL"
+    },
+    {
+      "page": "P3",
+      "path": "产物/视觉/CONTENT-001/V1/P3_眼部重点.svg",
+      "git_blob_sha": "26593ef7c39a458998f2cfb9d794bef1d1be834c",
+      "sha256": "0d098e52b61a8c3645bdec086c7c4d17dbe52e5b797c1f2364fbeab79c012fbe",
+      "status": "FINAL_VISUAL"
+    },
+    {
+      "page": "P4",
+      "path": "产物/视觉/CONTENT-001/V1/P4_腮红与唇.svg",
+      "git_blob_sha": "6c0aa8e726146876b7248afca1d5cc9c5a649508",
+      "sha256": "72b96a5906ec106a967eb2d461e06476cd72fa3b9ad7db09e0f9d18be1f159cb",
+      "status": "FINAL_VISUAL"
+    },
+    {
+      "page": "P5",
+      "path": "产物/视觉/CONTENT-001/V1/P5_轻重结构.svg",
+      "git_blob_sha": "d0c3aa74a79686d0df7c1cd9aaa03a2cf91b8212",
+      "sha256": "f9c0f73d04a02cc9e30cb53365b101d560068e631fceed2435443387f1171e43",
+      "status": "FINAL_VISUAL"
+    },
+    {
+      "page": "P6",
+      "path": "产物/视觉/CONTENT-001/V1/P6_总结卡.svg",
+      "git_blob_sha": "f4ec05afa1c6566bbd7876c559e491ef4b46a900",
+      "sha256": "fb924c746d3d76066137864347b010b401d7d74f34ba95bf2675f3118f635935",
+      "status": "FINAL_VISUAL"
+    }
+  ],
+  "support_files": [
+    {
+      "path": "产物/视觉/CONTENT-001/V1/六页总览.md",
+      "git_blob_sha": "23bc2487cd5d9a239fd4eec1b7ddf7bc6315ee29",
+      "sha256": "6c463bb064e083e4dae4881b76c8fb9902dc9995613503a45c78d29955dee9e4"
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/制作说明.md",
+      "git_blob_sha": "a5909b0845f24ce47d818df3b0927bae7e37b56e",
+      "sha256": "6b6230ca185b93e0688bbba40ac696779c5b23fc58064b02159662e7558dc74c"
+    }
+  ],
+  "review_invalidation": "替换任一正式视觉资产后，旧内容审核结论失效，必须重新审核。",
+  "publish_status": "NOT_APPROVED",
+  "next_role": "内容与合规审核"
+}
