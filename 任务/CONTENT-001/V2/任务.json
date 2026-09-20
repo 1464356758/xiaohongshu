@@ -1,0 +1,68 @@
+{
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "type": "visual_production",
+  "owner": "视觉与拍摄制作",
+  "status": "READY",
+  "goal": "把已验收的CONTENT-001策划与6页文案制作成6页实际可查看、可进入独立审核的原创视觉成稿。",
+  "inputs": [
+    {
+      "path": "产物/策划/CONTENT-001/V1/策划.md",
+      "commit": "0db302e0f95364064015128fbeb56a3a0a4da88c"
+    },
+    {
+      "path": "产物/策划/CONTENT-001/V1/交付.json",
+      "commit": "0db302e0f95364064015128fbeb56a3a0a4da88c"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/文案.md",
+      "commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/交付.json",
+      "commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba"
+    },
+    {
+      "path": "正式/定位/V1.md",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5"
+    },
+    {
+      "path": "批准/CONTENT-001/V1/策划文案阶段放行.md",
+      "commit_note": "从本轮总监最终交接固定提交读取"
+    },
+    {
+      "path": "系统/共同协议.md",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5"
+    }
+  ],
+  "input_commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba",
+  "input_commit_note": "上游内容集合以文案最终交付提交为最新固定输入；本V2任务、总监放行文件与当前进度必须从本轮总监最终交接固定提交读取。",
+  "dependencies": [
+    "策划总监验收PASS",
+    "文案总监验收PASS_FOR_VISUAL"
+  ],
+  "deliverables": [
+    "产物/视觉/CONTENT-001/V1/制作说明.md",
+    "产物/视觉/CONTENT-001/V1/资产清单.json",
+    "产物/视觉/CONTENT-001/V1/交付.json",
+    "6页实际可查看的最终视觉资产（优先写入产物/视觉/CONTENT-001/V1/；若工具无法持久化图像，必须明确BLOCKED并给出用户可访问的真实资产引用，不能只交提示词）"
+  ],
+  "acceptance": [
+    "P1—P6与已验收文案逐页一致，不漏页、不换题",
+    "实际成稿可查看，不能只交提示词、脚本或空白模板",
+    "版权/肖像来源可说明；未经授权的真人照片、试色图、摄影作品不得使用",
+    "AIGC人物或妆面仅作示意，并清晰保留AI视觉示意/非真人试色",
+    "不得新增具体品牌、产品、色号、功效、亲测或真实效果对比",
+    "封面与正文文字可读，无明显错字、截断、乱码",
+    "记录生成/制作方式、调色/滤镜情况、资产来源和资产哈希或可核验引用",
+    "现金支出为0元"
+  ],
+  "max_spend_cny": 0,
+  "publish_authority": "NONE",
+  "review_path_after_delivery": [
+    "内容与合规审核",
+    "总监最终批准",
+    "用户发布"
+  ],
+  "next_role": "内容与合规审核"
+}
