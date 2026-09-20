@@ -1,0 +1,35 @@
+name: Temp Build Phone Photo Simulator APK
+
+on:
+  push:
+    branches:
+      - "temp/apk-photo-sim-v4-20260920"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.9"
+
+      - name: Build APK
+        working-directory: _temp_apk_build/PhotoSimulatorV4
+        run: gradle assembleDebug --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: PhonePhotoSimulator-V4-APK
+          path: _temp_apk_build/PhotoSimulatorV4/app/build/outputs/apk/debug/app-debug.apk
