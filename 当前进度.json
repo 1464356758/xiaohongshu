@@ -1,12 +1,12 @@
 {
   "project_id": "XHS-BEAUTY-001",
-  "revision": 3,
-  "handoff_epoch": 3,
-  "stage": "VISUAL_PRODUCTION",
-  "status": "CONTENT_001_READY_FOR_VISUAL",
+  "revision": 4,
+  "handoff_epoch": 4,
+  "stage": "CONTENT_REWORK",
+  "status": "CONTENT_001_TITLE_REWORK_REQUIRED",
   "current_task": "CONTENT-001",
-  "task_path": "任务/CONTENT-001/V2/任务.json",
-  "current_input_revision": 2,
+  "task_path": "任务/CONTENT-001/V3/任务.json",
+  "current_input_revision": 3,
   "active_content_tasks": [
     "CONTENT-001"
   ],
@@ -15,15 +15,27 @@
       "status": "PASS",
       "final_commit": "0db302e0f95364064015128fbeb56a3a0a4da88c"
     },
-    "copywriting": {
-      "status": "PASS_FOR_VISUAL",
+    "copywriting_v1": {
+      "status": "SUPERSEDED_PENDING_TITLE_FIX",
       "final_commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba"
+    },
+    "visual": {
+      "status": "VERIFIED_NO_REWORK_REQUIRED",
+      "final_commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d"
+    },
+    "audit_v1": {
+      "status": "FAIL",
+      "final_commit": "6564b5dac713c0a57690f2ffb344c1b8822dbb5d",
+      "p0": 0,
+      "p1": 1
     }
   },
-  "process_deviation": {
-    "code": "COPYWRITING_COMPLETED_BEFORE_DIRECTOR_STATE_ADVANCE",
-    "resolution": "ACCEPTED_NO_REWRITE",
-    "reason": "文案读取真实策划固定提交并在发现状态未推进后主动阻塞，未进入视觉/发布阶段。"
+  "rework": {
+    "round": 1,
+    "scope": "TITLE_ONLY",
+    "original_title": "低饱和奶咖妆｜通勤配色一张图拆开",
+    "replacement_title": "奶咖不等于一脸棕｜通勤妆感重点怎么分",
+    "visual_rework_required": false
   },
   "latest_data_report": null,
   "latest_verified_snapshot": null,
@@ -34,19 +46,19 @@
   "stage_budget_limit_cny": 500,
   "approved_spend_cny": 0,
   "actual_spend_cny": 0,
-  "spend_note": "视觉阶段批准支出0元；500元仍只是首段预算上限。",
+  "spend_note": "标题返修批准支出0元；500元仍只是首段预算上限。",
   "content_mode": "FACELESS_AIGC_OR_LICENSED_VISUAL_EDITORIAL",
   "publish_status": "NOT_APPROVED",
   "next_actions": [
     {
-      "role": "视觉与拍摄制作",
-      "action": "读取CONTENT-001 V2任务、总监阶段放行文件、策划与文案固定提交，制作6页实际可查看的原创视觉资产。"
+      "role": "文案脚本",
+      "action": "按CONTENT-001 V3任务建立V2完整文案，只修推荐发布标题及直接绑定说明，视觉不动。"
     },
     {
-      "role": "总监",
-      "action": "等待视觉交付后验收流程完整性，并转内容与合规审核；不得直接批准发布。"
+      "role": "内容与合规审核",
+      "action": "文案V2交付后执行标题级复审；未复审PASS不得进入总监最终发布批准。"
     }
   ],
-  "updated_at": "2026-09-20T14:57:00+08:00",
-  "updated_at_note": "总监完成策划与文案阶段验收，修复流程顺序阻塞并正式放行视觉制作。"
+  "updated_at": "2026-09-20T17:23:00+08:00",
+  "updated_at_note": "总监接受审核FAIL，P1仅做标题级R1返修，6页视觉保持原固定版本。"
 }

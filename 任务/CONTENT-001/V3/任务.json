@@ -1,0 +1,63 @@
+{
+  "task_id": "CONTENT-001",
+  "input_revision": 3,
+  "type": "copy_title_rework",
+  "owner": "文案脚本",
+  "status": "READY",
+  "rework_round": 1,
+  "goal": "只修复审核P1-01：将与6页图文形式不一致的推荐发布标题替换为总监指定标题；其他已审内容保持不变。",
+  "inputs": [
+    {
+      "path": "产物/审核/CONTENT-001/V1/审核报告.md",
+      "commit": "6564b5dac713c0a57690f2ffb344c1b8822dbb5d"
+    },
+    {
+      "path": "产物/审核/CONTENT-001/V1/交付.json",
+      "commit": "6564b5dac713c0a57690f2ffb344c1b8822dbb5d"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/文案.md",
+      "commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba"
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/交付.json",
+      "commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d"
+    },
+    {
+      "path": "批准/CONTENT-001/V2/审核FAIL最小返修指令.md",
+      "commit_note": "从本轮总监最终固定提交读取"
+    }
+  ],
+  "audit_commit": "6564b5dac713c0a57690f2ffb344c1b8822dbb5d",
+  "original_recommended_title": "低饱和奶咖妆｜通勤配色一张图拆开",
+  "replacement_recommended_title": "奶咖不等于一脸棕｜通勤妆感重点怎么分",
+  "allowed_changes": [
+    "推荐发布标题",
+    "与推荐标题直接绑定的标题说明/标题选择说明"
+  ],
+  "forbidden_changes": [
+    "P1-P6视觉资产",
+    "P1-P6页面字稿",
+    "正文核心内容",
+    "品牌/产品/色号/价格/成分事实",
+    "亲测或体验事实",
+    "功效或肤色适配结论",
+    "预算与发布权限"
+  ],
+  "deliverables": [
+    "产物/文案/CONTENT-001/V2/文案.md",
+    "产物/文案/CONTENT-001/V2/交付.json"
+  ],
+  "acceptance": [
+    "V2完整文案以V1为基线，仅发生允许范围内的标题级修改",
+    "推荐标题精确为：奶咖不等于一脸棕｜通勤妆感重点怎么分",
+    "不得出现推荐标题仍承诺一张图",
+    "视觉资产无需改变",
+    "完成固定提交回读与SHA256校验",
+    "交付后下一角色为内容与合规审核"
+  ],
+  "max_spend_cny": 0,
+  "visual_rework_required": false,
+  "publish_authority": "NONE",
+  "next_role": "内容与合规审核"
+}
