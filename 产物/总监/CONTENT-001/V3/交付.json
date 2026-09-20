@@ -1,0 +1,74 @@
+{
+  "task_id": "CONTENT-001",
+  "role": "总监",
+  "input_revision": 4,
+  "inputs": [
+    {
+      "path": "产物/审核/CONTENT-001/V2/交付.json",
+      "commit": "3154425967b443b2abf6d51d9994cef2c34cbb45",
+      "sha256": "0156b8a559567ec6cc74f553a980fe862f28932a85ad3c4482233d35227a63bb"
+    },
+    {
+      "path": "产物/审核/CONTENT-001/V2/审核报告.md",
+      "commit": "3154425967b443b2abf6d51d9994cef2c34cbb45",
+      "sha256": "bb4ff7529b1677b1c7d4d83f88ada248e2e791a8c4107a6e14eedffcc5e69f40"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V2/交付.json",
+      "commit": "87d8b144c060268bf8c68d9fb96f498b9dfb696f",
+      "sha256": "3ea0c0c1bc903841586bfb21385423222be3db5c64be5ac5e971dd4f1da8d54b"
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/交付.json",
+      "commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d",
+      "sha256": "e2e587f9736a7934c7fbe54466278dca2a7f55c50380a49d299d7377cdc6a3b3"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "批准/CONTENT-001/V3/最终发布许可.md",
+      "artifact_commit": "b6c4593904e10f7d3e4d58930b6891b0c4cee42d",
+      "git_blob_sha": "64b03911586c14fcf635675232c8d832acfe9d83",
+      "sha256": "ad3f69ef55dc89e7150092a6271650bb7ca445bf3687c79878c309387bf638be",
+      "readback_verified": true
+    },
+    {
+      "path": "任务/CONTENT-001/V4/任务.json",
+      "artifact_commit": "b6c4593904e10f7d3e4d58930b6891b0c4cee42d",
+      "git_blob_sha": "c8f3511eb5710a2096d19b30a5a25d6e6bc70d39",
+      "sha256": "8f533d2414543e6efc2a55b0babb196b0c58a7e8cdae1d420c1bf158bc6bf15d",
+      "readback_verified": true
+    },
+    {
+      "path": "当前进度.json",
+      "artifact_commit": "b6c4593904e10f7d3e4d58930b6891b0c4cee42d",
+      "git_blob_sha": "4a569021802e86a2511bcb38a00834a43eded782",
+      "sha256": "eb40e263709cc21f61c3a7c57b9fb762fa00f7169641da5f00f4def5fc907672",
+      "readback_verified": true
+    },
+    {
+      "path": "续接/总监/当前.md",
+      "artifact_commit": "b6c4593904e10f7d3e4d58930b6891b0c4cee42d",
+      "git_blob_sha": "4278cc30ca4c02238fca35605520134231350005",
+      "sha256": "3f55ea527d1b84c47f8b67ff1825b17691ff9d99d64b259b8247d4e7df8cf505",
+      "readback_verified": true
+    }
+  ],
+  "verification_status": "VERIFIED",
+  "decision": {
+    "audit_v2": "PASS",
+    "p0": 0,
+    "p1": 0,
+    "approved_title": "奶咖不等于一脸棕｜通勤妆感重点怎么分",
+    "content_approval": "APPROVED_FOR_USER_PUBLISH",
+    "actual_publish_status": "NOT_PUBLISHED",
+    "account_registration_status": "NOT_REGISTERED",
+    "publish_authority": "USER_ONLY",
+    "approved_spend_cny": 0
+  },
+  "blockers": [
+    "实际发布前仍需用户完成小红书账号注册/必要实名认证并在发布界面使用平台AI生成/合成内容标识功能"
+  ],
+  "next_role": "发布与社群运营",
+  "note": "总监最终验收完成，批准固定版本进入发布准备。运营角色先制作发布包；账号未注册且用户未实际发布前，不得记录为已发布。交付文件自身最终提交不自引用，由聊天交接回执提供。"
+}
