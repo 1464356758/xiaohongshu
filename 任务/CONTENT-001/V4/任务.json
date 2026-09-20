@@ -1,0 +1,70 @@
+{
+  "task_id": "CONTENT-001",
+  "input_revision": 4,
+  "type": "publish_preparation",
+  "owner": "发布与社群运营",
+  "status": "READY",
+  "goal": "基于总监最终批准版本制作单条小红书发布包，并在用户尚未注册账号时明确阻塞实际发布；用户发布后记录真实回执并交数据分析。",
+  "inputs": [
+    {
+      "path": "批准/CONTENT-001/V3/最终发布许可.md",
+      "commit_note": "从本轮总监最终固定提交读取"
+    },
+    {
+      "path": "产物/审核/CONTENT-001/V2/审核报告.md",
+      "commit": "3154425967b443b2abf6d51d9994cef2c34cbb45"
+    },
+    {
+      "path": "产物/审核/CONTENT-001/V2/交付.json",
+      "commit": "3154425967b443b2abf6d51d9994cef2c34cbb45"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V2/文案.md",
+      "commit": "87d8b144c060268bf8c68d9fb96f498b9dfb696f"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V2/交付.json",
+      "commit": "87d8b144c060268bf8c68d9fb96f498b9dfb696f"
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/交付.json",
+      "commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d"
+    }
+  ],
+  "approved_title": "奶咖不等于一脸棕｜通勤妆感重点怎么分",
+  "approved_copy_commit": "87d8b144c060268bf8c68d9fb96f498b9dfb696f",
+  "approved_visual_delivery_commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d",
+  "approved_visual_asset_set_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+  "audit_pass_commit": "3154425967b443b2abf6d51d9994cef2c34cbb45",
+  "account_registration_status": "NOT_REGISTERED",
+  "deliverables_before_publish": [
+    "产物/运营/CONTENT-001/V1/发布包.md",
+    "产物/运营/CONTENT-001/V1/交付.json"
+  ],
+  "publish_package_must_include": [
+    "P1-P6准确页序和对应文件",
+    "批准标题",
+    "批准正文",
+    "相关话题候选",
+    "AI生成/合成内容标识提醒",
+    "发布前逐项检查清单",
+    "发布后需要用户回传的真实信息：笔记链接、发布时间、必要截图/后台数据"
+  ],
+  "publish_rules": [
+    "没有账号时可先准备发布包，但不得声称已经发布",
+    "账号注册、验证码、实名认证和最终发布由用户本人完成",
+    "不得改用历史旧标题：低饱和奶咖妆｜通勤配色一张图拆开",
+    "不得修改已批准P1-P6视觉和正文核心内容",
+    "不得新增品牌、产品、功效、亲测、商业合作或商品链接",
+    "正式发布AI生成/合成内容时按当时平台界面使用平台提供的AI标识/声明功能",
+    "现金支出和投流均为0元"
+  ],
+  "after_publish": [
+    "收到真实笔记链接与发布时间后写数据/回执/或产物/运营/对应回执",
+    "不猜测发布结果",
+    "交数据分析AI建立24小时真实数据快照"
+  ],
+  "max_spend_cny": 0,
+  "publish_authority": "USER_ONLY",
+  "next_role_after_receipt": "数据分析与实验"
+}

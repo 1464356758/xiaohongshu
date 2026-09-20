@@ -1,12 +1,12 @@
 {
   "project_id": "XHS-BEAUTY-001",
-  "revision": 4,
-  "handoff_epoch": 4,
-  "stage": "CONTENT_REWORK",
-  "status": "CONTENT_001_TITLE_REWORK_REQUIRED",
+  "revision": 5,
+  "handoff_epoch": 5,
+  "stage": "PUBLISH_PREP",
+  "status": "CONTENT_001_APPROVED_FOR_PUBLISH_PREP",
   "current_task": "CONTENT-001",
-  "task_path": "任务/CONTENT-001/V3/任务.json",
-  "current_input_revision": 3,
+  "task_path": "任务/CONTENT-001/V4/任务.json",
+  "current_input_revision": 4,
   "active_content_tasks": [
     "CONTENT-001"
   ],
@@ -15,50 +15,55 @@
       "status": "PASS",
       "final_commit": "0db302e0f95364064015128fbeb56a3a0a4da88c"
     },
-    "copywriting_v1": {
-      "status": "SUPERSEDED_PENDING_TITLE_FIX",
-      "final_commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba"
+    "copywriting_v2": {
+      "status": "APPROVED",
+      "final_commit": "87d8b144c060268bf8c68d9fb96f498b9dfb696f",
+      "recommended_title": "奶咖不等于一脸棕｜通勤妆感重点怎么分"
     },
     "visual": {
-      "status": "VERIFIED_NO_REWORK_REQUIRED",
-      "final_commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d"
+      "status": "APPROVED_NO_REWORK_REQUIRED",
+      "final_commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d",
+      "asset_set_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56"
     },
-    "audit_v1": {
-      "status": "FAIL",
-      "final_commit": "6564b5dac713c0a57690f2ffb344c1b8822dbb5d",
+    "audit_v2": {
+      "status": "PASS",
+      "final_commit": "3154425967b443b2abf6d51d9994cef2c34cbb45",
       "p0": 0,
-      "p1": 1
+      "p1": 0
     }
   },
-  "rework": {
-    "round": 1,
-    "scope": "TITLE_ONLY",
-    "original_title": "低饱和奶咖妆｜通勤配色一张图拆开",
-    "replacement_title": "奶咖不等于一脸棕｜通勤妆感重点怎么分",
-    "visual_rework_required": false
+  "release": {
+    "content_approval": "APPROVED_FOR_USER_PUBLISH",
+    "actual_publish_status": "NOT_PUBLISHED",
+    "account_registration_status": "NOT_REGISTERED",
+    "publish_authority": "USER_ONLY",
+    "ai_label_required_at_publish": true,
+    "approved_spend_cny": 0
   },
   "latest_data_report": null,
   "latest_verified_snapshot": null,
   "account_id": null,
-  "account_registration_status": "NOT_REGISTERED",
   "followers": null,
   "user_capital_limit_cny": 10000,
   "stage_budget_limit_cny": 500,
   "approved_spend_cny": 0,
   "actual_spend_cny": 0,
-  "spend_note": "标题返修批准支出0元；500元仍只是首段预算上限。",
+  "spend_note": "CONTENT-001批准内容版本进入发布准备；仍未授权任何投流、购买或外包。",
   "content_mode": "FACELESS_AIGC_OR_LICENSED_VISUAL_EDITORIAL",
-  "publish_status": "NOT_APPROVED",
   "next_actions": [
     {
-      "role": "文案脚本",
-      "action": "按CONTENT-001 V3任务建立V2完整文案，只修推荐发布标题及直接绑定说明，视觉不动。"
+      "role": "发布与社群运营",
+      "action": "按CONTENT-001 V4任务和最终发布许可制作单条发布包；账号未注册时不得声称已发布。"
     },
     {
-      "role": "内容与合规审核",
-      "action": "文案V2交付后执行标题级复审；未复审PASS不得进入总监最终发布批准。"
+      "role": "用户",
+      "action": "取得发布包后，在小红书App完成账号注册并按批准版本本人发布；发布时使用平台AI生成/合成内容标识功能。"
+    },
+    {
+      "role": "数据分析与实验",
+      "action": "仅在收到真实发布链接、时间和数据后建立24小时快照。"
     }
   ],
   "updated_at": "2026-09-20T17:23:00+08:00",
-  "updated_at_note": "总监接受审核FAIL，P1仅做标题级R1返修，6页视觉保持原固定版本。"
+  "updated_at_note": "独立审核R1复审PASS后，总监完成最终验收并批准固定内容版本进入发布准备；账号尚未注册，实际发布未发生。"
 }
