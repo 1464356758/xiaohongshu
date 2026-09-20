@@ -1,0 +1,73 @@
+{
+  "task_id": "BOOT-001",
+  "role": "总监",
+  "input_revision": 1,
+  "inputs": [
+    {
+      "path": "任务/BOOT-001/V1/用户输入-20260920.md",
+      "commit": "45f73b0ed57f692b240b6e3c4bb27ffd06311c3b",
+      "sha256": "1f74101fcd5381235bdfa8ca6991f3a6e2ac89d721db31ca2783c2cdad1613ce"
+    },
+    {
+      "path": "运营手册.md",
+      "commit": "45f73b0ed57f692b240b6e3c4bb27ffd06311c3b",
+      "sha256": "7756fae1d3988078d90a196aff874ef36f61529fb39e9699eed2a930b775f527"
+    },
+    {
+      "path": "系统/共同协议.md",
+      "commit": "45f73b0ed57f692b240b6e3c4bb27ffd06311c3b",
+      "sha256": "9d4b553653b5108481d244cb89d52e9a6c998441062d00d1d5e37254c0f10a67"
+    },
+    {
+      "path": "角色/01_总监.txt",
+      "commit": "45f73b0ed57f692b240b6e3c4bb27ffd06311c3b",
+      "sha256": "3d98c98826476cf2aa15328feed31e0a298c7a77f41d520ce9272409e357e947"
+    },
+    {
+      "path": "任务/BOOT-001/V1/任务.json",
+      "commit": "45f73b0ed57f692b240b6e3c4bb27ffd06311c3b",
+      "sha256": "488cb1f21e2df47d32c20ddb7b81dbe104e2111a8be1016990fd5b14bdd79322"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "正式/定位/V1.md",
+      "artifact_commit": "cec5f0d23cc0ce8bf079d2d452b04fda251d5164",
+      "git_blob_sha": "3bbfa64e31f4e3a2b7b73ccac0b87d4875511764",
+      "sha256": "4dc1d1cd28c9a905e02da2a5c3b34c0188f3f7c363eaf81c70de0bc510ed1990",
+      "readback_verified": true
+    },
+    {
+      "path": "正式/计划/首周V1.md",
+      "artifact_commit": "cec5f0d23cc0ce8bf079d2d452b04fda251d5164",
+      "git_blob_sha": "e477aec2d5422da9a13bb947c561d171095b8db5",
+      "sha256": "ebb375ae813f302907b2af56822c8de9e4fdddb06d024c63cc571f69e62bca7a",
+      "readback_verified": true
+    },
+    {
+      "path": "任务/CONTENT-001/V1/任务.json",
+      "artifact_commit": "cec5f0d23cc0ce8bf079d2d452b04fda251d5164",
+      "git_blob_sha": "dbce1f44cf2aff534d36e7ddac7345f710ea029f",
+      "sha256": "70683ed0122e128de04bffe6781ba01218b60fac5037597d025abc0b42cbac87",
+      "readback_verified": true
+    },
+    {
+      "path": "当前进度.json",
+      "artifact_commit": "cec5f0d23cc0ce8bf079d2d452b04fda251d5164",
+      "git_blob_sha": "ec366204257b096806e23c2a9f0b18f23b13a0c1",
+      "sha256": "8efc7ab7db7b78941d842996178781dbade0e3b51197c7780edf7633de92502a",
+      "readback_verified": true
+    },
+    {
+      "path": "续接/总监/当前.md",
+      "artifact_commit": "cec5f0d23cc0ce8bf079d2d452b04fda251d5164",
+      "git_blob_sha": "61fa7fe00eea56fa389d4b6109ab09d7fd3ff671",
+      "sha256": "141ac9d060cc5091defa53c87a84b2ce01218b26d884529f6b732fe9a410d30a",
+      "readback_verified": true
+    }
+  ],
+  "verification_status": "VERIFIED",
+  "blockers": [],
+  "next_role": "内容策划",
+  "note": "BOOT-001已完成。交付清单自身最终提交不写入本文件以避免循环引用；由聊天交接回执提供。首周批准支出0元，500元仅为阶段预算上限。"
+}
