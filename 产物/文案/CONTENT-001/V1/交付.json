@@ -1,0 +1,65 @@
+{
+  "task_id": "CONTENT-001",
+  "role": "文案脚本",
+  "input_revision": 1,
+  "inputs": [
+    {
+      "path": "任务/CONTENT-001/V1/任务.json",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5",
+      "sha256": "70683ed0122e128de04bffe6781ba01218b60fac5037597d025abc0b42cbac87"
+    },
+    {
+      "path": "正式/定位/V1.md",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5",
+      "sha256": "4dc1d1cd28c9a905e02da2a5c3b34c0188f3f7c363eaf81c70de0bc510ed1990"
+    },
+    {
+      "path": "正式/计划/首周V1.md",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5",
+      "sha256": "ebb375ae813f302907b2af56822c8de9e4fdddb06d024c63cc571f69e62bca7a"
+    },
+    {
+      "path": "任务/BOOT-001/V1/用户输入-20260920.md",
+      "commit": "45f73b0ed57f692b240b6e3c4bb27ffd06311c3b",
+      "sha256": "1f74101fcd5381235bdfa8ca6991f3a6e2ac89d721db31ca2783c2cdad1613ce"
+    },
+    {
+      "path": "运营手册.md",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5",
+      "sha256": "364d1a1ab9076439f722d62da227ec47d867dbc042d19d7f6a0f8972814bef4d"
+    },
+    {
+      "path": "系统/共同协议.md",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5",
+      "sha256": "40c15c5aca09f0874d5314074e8438a9e759e75c83073f1cb4ff2aa0eb86b43e"
+    },
+    {
+      "path": "角色/04_文案脚本.txt",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5",
+      "sha256": "5d592c5e1071b16ebf4b6d4ebfb3049b6e17ab498f9f50058420e8cba36a3218"
+    },
+    {
+      "path": "产物/策划/CONTENT-001/V1/策划.md",
+      "commit": "797516d730519631ada48da2991d6bff44b43e5b",
+      "sha256": "9763061e47051e46804dc41a8c11838aa3c5adfb5066ff31f49d00656588c17a"
+    },
+    {
+      "path": "产物/策划/CONTENT-001/V1/交付.json",
+      "commit": "0db302e0f95364064015128fbeb56a3a0a4da88c",
+      "sha256": "4590d6abddc4db27e53e11997053d94239c59cea98c9f7921399705d95e92b79"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "产物/文案/CONTENT-001/V1/文案.md",
+      "artifact_commit": "f4b7f59277b29e2d04cc8a56b00a165af566e212",
+      "git_blob_sha": "b2174e77592a237e1e6744ab33d9bc630c1f82de",
+      "sha256": "cbe96a650f6654a42cbcd55bf46ac6639d3627c953c88c1024ef39cc3fd1a3e1",
+      "readback_verified": true
+    }
+  ],
+  "verification_status": "VERIFIED",
+  "blockers": [],
+  "next_role": "视觉与拍摄制作",
+  "note": "已按策划最终固定提交0db302e0f95364064015128fbeb56a3a0a4da88c完整读取并生成6页文案；正文从固定提交f4b7f59277b29e2d04cc8a56b00a165af566e212完整回读，机械计算SHA256并核对Git blob SHA。未新增亲测、品牌、产品、色号、功效、肤色适配或未经证实效果；待本人核对体验句为无。交付文件自身最终提交不写入本文件，避免循环引用，由聊天交接回执提供。"
+}
