@@ -1,0 +1,77 @@
+{
+  "task_id": "CONTENT-001",
+  "role": "总监",
+  "input_revision": 2,
+  "inputs": [
+    {
+      "path": "数据库入口.json",
+      "commit": "8ba978de2e8a4a78b3258b1226ae4c8e4e364fc9",
+      "sha256": "06152d2b72d4043a4cd4e7d2d3a0b67d15dde0959850ba462f0ebae128f1e472"
+    },
+    {
+      "path": "系统/共同协议.md",
+      "commit": "8ba978de2e8a4a78b3258b1226ae4c8e4e364fc9",
+      "sha256": "40c15c5aca09f0874d5314074e8438a9e759e75c83073f1cb4ff2aa0eb86b43e"
+    },
+    {
+      "path": "角色/01_总监.txt",
+      "commit": "8ba978de2e8a4a78b3258b1226ae4c8e4e364fc9",
+      "sha256": "9a6baae75b5c794a4a3a74f41652431332288ef51d53afb59d793fadeb8dfacb"
+    },
+    {
+      "path": "产物/策划/CONTENT-001/V1/交付.json",
+      "commit": "0db302e0f95364064015128fbeb56a3a0a4da88c",
+      "sha256": "4590d6abddc4db27e53e11997053d94239c59cea98c9f7921399705d95e92b79"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/交付.json",
+      "commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba",
+      "sha256": "9d19af602150b7ae760755061a23f3add824ee4c6d8b8cddd1bdd7412d18e6e5"
+    },
+    {
+      "path": "续接/文案/CONTENT-001/V1/流程阻塞.md",
+      "commit": "011cfadca81413fac018795ae657c621a3bde0fb",
+      "sha256": "6262f71d4038eb42eff9c3116f775a873b7e13168c6f3820b37652e10fff2221"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "批准/CONTENT-001/V1/策划文案阶段放行.md",
+      "artifact_commit": "8ba978de2e8a4a78b3258b1226ae4c8e4e364fc9",
+      "git_blob_sha": "46ba3c5ecec8f8e10990cad8583ecb736f237507",
+      "sha256": "c9e8f9745e8ba3e382a6acde4a2432bfe489a5e6126f884515c85a2c25c0dcf6",
+      "readback_verified": true
+    },
+    {
+      "path": "任务/CONTENT-001/V2/任务.json",
+      "artifact_commit": "8ba978de2e8a4a78b3258b1226ae4c8e4e364fc9",
+      "git_blob_sha": "41dd4d737baee7ae25d7c28e5c61c49f512facae",
+      "sha256": "58b5a1e24f80f6bde315a50ee430665d53b1ef9b427e148b3771ba7ac47b90bc",
+      "readback_verified": true
+    },
+    {
+      "path": "当前进度.json",
+      "artifact_commit": "8ba978de2e8a4a78b3258b1226ae4c8e4e364fc9",
+      "git_blob_sha": "398f1dc0a0c39bd9b790c2a5a32bf625be4409f8",
+      "sha256": "2e5fd1eb7903891d265ef5191b0e0db9865cffc0d3d17c7ab6186fd028dab63e",
+      "readback_verified": true
+    },
+    {
+      "path": "续接/总监/当前.md",
+      "artifact_commit": "8ba978de2e8a4a78b3258b1226ae4c8e4e364fc9",
+      "git_blob_sha": "1b52c54f3cd5c1b84ec679c3d0d64d6e730ef079",
+      "sha256": "b26561d897ccf7965cc5a78bbdc4140fb0fe82b945ac8d0c647d848a48be02f9",
+      "readback_verified": true
+    }
+  ],
+  "verification_status": "VERIFIED",
+  "blockers": [],
+  "decision": {
+    "planning": "PASS",
+    "copywriting": "PASS_FOR_VISUAL",
+    "process_deviation": "ACCEPTED_NO_REWRITE",
+    "publish_authority": "NOT_GRANTED"
+  },
+  "next_role": "视觉与拍摄制作",
+  "note": "已补做总监阶段验收并正式放行CONTENT-001视觉制作。文案流程阻塞已解除。视觉交付后仍必须进入独立内容与合规审核，再由总监做最终发布批准。交付文件自身最终提交不写入本文件，避免循环引用，由聊天交接回执提供。"
+}
