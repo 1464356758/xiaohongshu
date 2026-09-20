@@ -1,0 +1,52 @@
+{
+  "task_id": "CONTENT-001",
+  "role": "内容与合规审核",
+  "input_revision": 2,
+  "inputs": [
+    {
+      "path": "任务/CONTENT-001/V2/任务.json",
+      "commit": "3a03de48a3b2a987cdee625896473d02d998d567",
+      "sha256": "58b5a1e24f80f6bde315a50ee430665d53b1ef9b427e148b3771ba7ac47b90bc"
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/交付.json",
+      "commit": "6b95a4b7607d0dbb8e62257c0bb572ccfdcb7c6d",
+      "sha256": "e2e587f9736a7934c7fbe54466278dca2a7f55c50380a49d299d7377cdc6a3b3"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/文案.md",
+      "commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba",
+      "sha256": "cbe96a650f6654a42cbcd55bf46ac6639d3627c953c88c1024ef39cc3fd1a3e1"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "产物/审核/CONTENT-001/V1/审核报告.md",
+      "artifact_commit": "039d2bec4ba8d6b0d4cf4335934d2da3a558e439",
+      "git_blob_sha": "b6a2a04315b1d7ef4f32760a77bb1ca92536fda3",
+      "sha256": "21cc82ef0c2c045f963a0f9b0ec299bc6f3665b926a786324e24f2e3bed69ff0",
+      "readback_verified": true
+    }
+  ],
+  "review_result": "FAIL",
+  "score": {
+    "audience_value": 23,
+    "evidence_credibility": 24,
+    "structure": 18,
+    "visual_readability": 14,
+    "natural_language": 9,
+    "follow_reason": 4,
+    "total": 92
+  },
+  "p0_count": 0,
+  "p1_count": 1,
+  "p2_required_count": 0,
+  "blockers": [
+    "P1-01：推荐发布标题“低饱和奶咖妆｜通勤配色一张图拆开”与实际6页图文卡片形式不一致；需提交标题新版本后复审。"
+  ],
+  "visual_rework_required": false,
+  "publish_status": "NOT_APPROVED",
+  "verification_status": "VERIFIED",
+  "next_role": "总监",
+  "note": "六页视觉已实际渲染逐页检查，P1-P6 SHA256与视觉交付一致。未发现P0；唯一P1为发布标题与媒体页数不一致。六页视觉无需返工。发布时仍必须使用小红书当时提供的AI生成/合成内容声明或标识功能。交付文件自身最终提交由聊天交接回执提供，避免循环引用。"
+}
