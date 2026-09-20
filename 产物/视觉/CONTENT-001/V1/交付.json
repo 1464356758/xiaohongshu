@@ -1,0 +1,121 @@
+{
+  "task_id": "CONTENT-001",
+  "role": "视觉与拍摄制作",
+  "input_revision": 2,
+  "control_commit": "3a03de48a3b2a987cdee625896473d02d998d567",
+  "inputs": [
+    {
+      "path": "任务/CONTENT-001/V2/任务.json",
+      "commit": "3a03de48a3b2a987cdee625896473d02d998d567",
+      "sha256": "58b5a1e24f80f6bde315a50ee430665d53b1ef9b427e148b3771ba7ac47b90bc"
+    },
+    {
+      "path": "批准/CONTENT-001/V1/策划文案阶段放行.md",
+      "commit": "3a03de48a3b2a987cdee625896473d02d998d567",
+      "sha256": "c9e8f9745e8ba3e382a6acde4a2432bfe489a5e6126f884515c85a2c25c0dcf6"
+    },
+    {
+      "path": "产物/策划/CONTENT-001/V1/策划.md",
+      "commit": "0db302e0f95364064015128fbeb56a3a0a4da88c",
+      "sha256": "9763061e47051e46804dc41a8c11838aa3c5adfb5066ff31f49d00656588c17a"
+    },
+    {
+      "path": "产物/策划/CONTENT-001/V1/交付.json",
+      "commit": "0db302e0f95364064015128fbeb56a3a0a4da88c",
+      "sha256": "4590d6abddc4db27e53e11997053d94239c59cea98c9f7921399705d95e92b79"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/文案.md",
+      "commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba",
+      "sha256": "cbe96a650f6654a42cbcd55bf46ac6639d3627c953c88c1024ef39cc3fd1a3e1"
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/交付.json",
+      "commit": "57697b30673c19ab014e71fa74a44c1272f4a0ba",
+      "sha256": "9d19af602150b7ae760755061a23f3add824ee4c6d8b8cddd1bdd7412d18e6e5"
+    },
+    {
+      "path": "正式/定位/V1.md",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5",
+      "sha256": "4dc1d1cd28c9a905e02da2a5c3b34c0188f3f7c363eaf81c70de0bc510ed1990"
+    },
+    {
+      "path": "系统/共同协议.md",
+      "commit": "2ed9e985763656266799025100dbd78997e459c5",
+      "sha256": "40c15c5aca09f0874d5314074e8438a9e759e75c83073f1cb4ff2aa0eb86b43e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "产物/视觉/CONTENT-001/V1/P1_封面.svg",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "f14b63689a873e0ee7a261f4ceded9f67a0b4041",
+      "sha256": "e986dbda8680ac23efbee445d6621456c75dac4f40f27df17d340daca5f09e45",
+      "readback_verified": true
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/P2_整体色盘.svg",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "16e9af45c8cb748f3e7fed442dfecf5dd3a040ba",
+      "sha256": "99357d797baf130979ada8ea3070c679fcd367cd1dde3dde78beda2964a7a8d8",
+      "readback_verified": true
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/P3_眼部重点.svg",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "26593ef7c39a458998f2cfb9d794bef1d1be834c",
+      "sha256": "0d098e52b61a8c3645bdec086c7c4d17dbe52e5b797c1f2364fbeab79c012fbe",
+      "readback_verified": true
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/P4_腮红与唇.svg",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "6c0aa8e726146876b7248afca1d5cc9c5a649508",
+      "sha256": "72b96a5906ec106a967eb2d461e06476cd72fa3b9ad7db09e0f9d18be1f159cb",
+      "readback_verified": true
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/P5_轻重结构.svg",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "d0c3aa74a79686d0df7c1cd9aaa03a2cf91b8212",
+      "sha256": "f9c0f73d04a02cc9e30cb53365b101d560068e631fceed2435443387f1171e43",
+      "readback_verified": true
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/P6_总结卡.svg",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "f4ec05afa1c6566bbd7876c559e491ef4b46a900",
+      "sha256": "fb924c746d3d76066137864347b010b401d7d74f34ba95bf2675f3118f635935",
+      "readback_verified": true
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/六页总览.md",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "23bc2487cd5d9a239fd4eec1b7ddf7bc6315ee29",
+      "sha256": "6c463bb064e083e4dae4881b76c8fb9902dc9995613503a45c78d29955dee9e4",
+      "readback_verified": true
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/制作说明.md",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "a5909b0845f24ce47d818df3b0927bae7e37b56e",
+      "sha256": "6b6230ca185b93e0688bbba40ac696779c5b23fc58064b02159662e7558dc74c",
+      "readback_verified": true
+    },
+    {
+      "path": "产物/视觉/CONTENT-001/V1/资产清单.json",
+      "artifact_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+      "git_blob_sha": "58fed201bbf19691219c927c64c5592f8cefa8ef",
+      "sha256": "352863d5cceb0260978d5163d9f8f65d451c2ea0858afc136c4fe602fdb81209",
+      "readback_verified": true
+    }
+  ],
+  "visual_asset_set_commit": "8fe92561268c3bf9252c85951b0d4352994dbc56",
+  "verification_status": "VERIFIED",
+  "blockers": [],
+  "spend_cny": 0,
+  "publish_authority": "NONE",
+  "publish_status": "NOT_APPROVED",
+  "next_role": "内容与合规审核",
+  "note": "6页SVG为实际可查看原创视觉成稿，逐页对应已验收文案；无外部摄影、真人肖像、品牌/产品素材、真人试色、亲测或效果对比。资产与支持文件已在视觉资产固定提交回读；交付文件自身最终提交不写入本文件，避免循环引用，由聊天交接回执提供。"
+}
