@@ -1,30 +1,37 @@
 {
   "project_id": "XHS-BEAUTY-001",
-  "revision": 1,
-  "handoff_epoch": 1,
-  "stage": "SETUP",
-  "status": "WAITING_USER_PROFILE",
-  "current_task": "BOOT-001",
-  "task_path": "任务/BOOT-001/V1/任务.json",
-  "active_content_tasks": [],
+  "revision": 2,
+  "handoff_epoch": 2,
+  "stage": "CONTENT_PREP",
+  "status": "CONTENT_001_READY_FOR_PLANNING",
+  "current_task": "CONTENT-001",
+  "task_path": "任务/CONTENT-001/V1/任务.json",
+  "active_content_tasks": [
+    "CONTENT-001"
+  ],
   "latest_data_report": null,
   "latest_verified_snapshot": null,
   "account_id": null,
+  "account_registration_status": "NOT_REGISTERED",
   "followers": null,
   "user_capital_limit_cny": 10000,
+  "stage_budget_limit_cny": 500,
   "approved_spend_cny": 0,
   "actual_spend_cny": 0,
-  "spend_note": "仅本系统已记录支出为0，用户历史支出尚未核实",
+  "spend_note": "首周自然流量验证，批准支出0元；500元为首段预算上限，不构成单笔授权。",
+  "bootstrap_input_commit": "45f73b0ed57f692b240b6e3c4bb27ffd06311c3b",
+  "bootstrap_status": "ACCEPTED_WITH_NO_REAL_EXPERIENCE_ROUTE",
+  "content_mode": "FACELESS_AIGC_OR_LICENSED_VISUAL_EDITORIAL",
   "next_actions": [
     {
-      "role": "用户",
-      "action": "填写启动/用户首次资料.md"
+      "role": "内容策划",
+      "action": "执行CONTENT-001，输出首条5—6页图文策划；素材仅使用AI原创/原创图形/明确授权来源，不虚构亲测。"
     },
     {
       "role": "总监",
-      "action": "核对六项资料，生成正式定位与第一条内容任务"
+      "action": "等待策划交付后验收，再推进文案脚本；不提前投流或发布。"
     }
   ],
-  "updated_at": "2026-09-20T00:00:00+08:00",
-  "updated_at_note": "版本编制日期，非后台数据采集时间"
+  "updated_at": "2026-09-20T12:58:00+08:00",
+  "updated_at_note": "根据用户本轮首次资料完成BOOT-001并进入首条内容准备阶段。"
 }
